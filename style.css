@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+.navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+.search{
+    height: 40px;
+    width:80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(63, 194, 63);
+
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline:none;
+    border: none;
+    background-color: rgb(63, 194, 63);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(./images/banner-slide/Banner-1.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: 40% 40%;
+    width: 100%;
+}
+.main-text {
+    color: green; /* or any color contrasting with your background */
+    padding: 20px;
+}
+
+.main-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(63, 194, 63);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn1:hover {
+    background-color: darkgreen;
+    color: white;
+}
+.row{
+    gap: 10px;
+}
+.feature-box{
+    background-color: white;
+    border: 2px solid green;
+    height: 200px;
+}
+.feature-box {
+    background-color: white;
+    border: 2px solid green;
+    height: 200px;
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+  }
+  .feature-box:hover{
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feature-img {
+    height: 30px;
+    width: 40px;
+    margin-bottom: 10px;
+  }
+   .lemon-img {
+    height: 50px;
+  }
+  .main1{
+    background: url(./images/about/about-banner.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: 40% 40%;
+    width: 100%;
+}
+.feature-img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.product-price {
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+  }
+.product-price:hover{
+    background-color: darkgreen;
+    color:white;
+}  
+.product-info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 16px 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .best-seller-text {
+    font-weight: bold;
+    font-size: 1rem;
+    color: green;
+    margin-bottom: 12px;
+    border-left: 4px solid green;
+    padding-left: 10px;
+  }
+  
+  .product-description {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 6px 0;
+    padding-left: 10px;
+    position: relative;
+  }
+  
+  .product-description::before {
+    content: '✔';
+    left: 0;
+    color: #28a745;
+    font-size: 0.85rem;
+  }
+
+  .gallery-intro {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .gallery-intro{
+    font-size: 18px;
+  }
+  
+  .footer {
+    background-image: url('./images/footer-bg/footer_bg.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Make text visible over background */
+    padding: 40px 0;
+    position: relative; /* Ensure the footer is positioned correctly */
+  }
+  
+  .quick-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #eee;
+  }
+  
+  .quick-links h5 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .footer-text,
+  .footer-link {
+    color: white; 
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .footer-link:hover {
+    color: #28a745;
+    text-decoration: underline;
+  }
+  
+  .list-unstyled {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1; /* Make sure the footer content is on top */
+  }
+  
+  footer .footer-title {
+    color: #28a745; /* Ensure it's visible */
+  }
+  
+  footer {
+    margin-top: 40px;
+  }
+  
+  .text-muted {
+    color: #bbb; /* Lighter text color for the copyright notice */
+  }
+  
+ 
+  
